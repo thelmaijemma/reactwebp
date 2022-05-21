@@ -7,7 +7,7 @@ module.exports = {
     },
     devServer: {
         port: 3010,
-        watchContentBase: true,
+        static: path.resolve(__dirname, 'dist'),
     },
     module: {
         rules: [
